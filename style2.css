@@ -1,0 +1,87 @@
+/* dmk2.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, pink, violet, yellow);
+    color: #333;
+    margin: 0;
+    padding: 0 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: 30px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+button {
+    background-color: violet;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: pink;
+}
+
+ul {
+    background-color: #fff8dc;
+    padding: 15px;
+    border-radius: 10px;
+    list-style-type: square;
+}
+
+a {
+    color: darkviolet;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color: #fffacd;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+div p {
+    background-color: #ffecf0;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 0.95em;
+    max-width: 600px;
+    margin: 20px auto;
+}
